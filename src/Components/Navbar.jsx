@@ -18,11 +18,11 @@ function Navbar() {
 
     return (
         <div className="flex justify-between p-4 sticky top-0 dark:bg-gray-200">
-            <button onClick={toggleTheme} className="text-white dark:text-black">
+            <button onClick={toggleTheme} className="text-white dark:text-gray-900">
                 {isDarkMode ? <MoonIcon className="h-6 w-6" /> : <SunIcon className="h-6 w-6" />}
             </button>
 
-            <button className="text-white dark:text-black">
+            <button className="text-white dark:text-gray-900">
                 <Bars3Icon className="h-6 w-6" />
             </button>
         </div>
