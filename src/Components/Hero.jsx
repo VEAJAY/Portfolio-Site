@@ -15,7 +15,7 @@ function Hero() {
             </h1>
 
             {/* STATS */}
-            <div className="my-6 p-4 bg-slate-800 dark:bg-slate-300 rounded-2xl font-mono text-sm sm:text-base">
+            <div className="my-14 py-4 px-8 bg-slate-800 dark:bg-slate-300 rounded-2xl font-mono text-sm sm:text-base">
                 <p className="text-gray-300 text-center dark:text-gray-900">
                     <b>119</b> credits earned | <b>100K</b> lines of code written | <b>200HRS</b> of sleepless nights
                 </p>
