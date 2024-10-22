@@ -26,9 +26,9 @@ function Skills() {
     ];
 
     return (
-        <div className="min-h-screen dark:bg-gray-200 ">
+        <div className="min-h-screen dark:bg-gray-200">
             {/* TITLES */}
-            <div className="flex flex-col mx-72">
+            <div className="flex flex-col mx-8 sm:mx-24 md:mx-54 lg:mx-72">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-900">
                     Skills.
                 </h1>
@@ -38,7 +38,7 @@ function Skills() {
             </div>
 
             {/* SKILLS GRID */}
-            <div className="grid grid-cols-6 gap-8 px-20 py-25 mx-56">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-5 sm:px-10 md:px-20 lg:px-56 py-10">
                 {skills.map((skill, index) => (
                     <SkillCard 
                         key={index} 
