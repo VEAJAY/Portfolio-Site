@@ -5,7 +5,7 @@ function Projects() {
         <div className="min-h-screen dark:bg-gray-200">
 
             {/* TITLES */}
-            <div className="flex flex-col mx-4 mt-24 sm:mx-8 md:mx-24 lg:mx-44">
+            <div className="flex flex-col mx-4 pt-24 sm:mx-8 md:mx-24 lg:mx-44">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-900">
                     Projects.
                 </h1>

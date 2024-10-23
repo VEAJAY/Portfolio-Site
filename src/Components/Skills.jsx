@@ -23,6 +23,7 @@ function Skills() {
         { name: 'Unreal Engine', image: '../src/assets/tech_logos/unreal-logo.png' },
         { name: 'VS Code', image: '../src/assets/tech_logos/vscode-logo.png' },
         { name: 'Chrome Dev Tools', image: '../src/assets/tech_logos/chrome-logo.png' },
+        { name: 'Blender', image: '../src/assets/tech_logos/blender-logo.png' },
     ];
 
     return (
