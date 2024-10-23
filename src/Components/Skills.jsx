@@ -31,7 +31,7 @@ function Skills() {
             {/* TITLES */}
             <div className="flex flex-col mx-8 sm:mx-24 md:mx-54 lg:mx-72">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-900">
-                    Skills.
+                    Skills<span className='text-purple-700 dark:text-blue-600'>.</span>
                 </h1>
                 <h2 className="text-gray-400 mb-10 mt-3 text-xl sm:text-md md:text-lg lg:text-xl dark:text-gray-900">
                     Cool technologies and languages
