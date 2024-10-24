@@ -3,7 +3,7 @@ import Title from './Title';
 
 function Education() {
     return (
-      <div className="min-h-screen dark:bg-gray-200">
+      <div className="min-h-screen dark:bg-gray-200" id='education'>
 
         <Title 
           title="Education"

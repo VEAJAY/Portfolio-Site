@@ -3,7 +3,7 @@ const ContactCard = ({ image, note, contact, link }) => {
         <div className="flex flex-row items-center">
                 <img src={image} className="w-16 h-16"/>
 
-                <div className="flex flex-col ml-4 text-white dark:text-gray-900">
+                <div className="flex flex-col m-4 text-white dark:text-gray-900">
                     <a href={link} target="_blank">
                         <p className="text-gray-400 font-thin dark:text-black">
                             {note}

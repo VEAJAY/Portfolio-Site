@@ -3,7 +3,7 @@ import Title from './Title';
 
 function Contact() {
   return (
-    <div className="h-screen dark:bg-gray-200">
+    <div className="h-auto dark:bg-gray-200" id='contact'>
         
         <Title 
           title="Contact"
@@ -11,7 +11,7 @@ function Contact() {
         />
 
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-24 justify-center max-w-6xl px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 justify-center max-w-6xl px-4">
 
             <ContactCard 
               image="../src/assets/socials_logo/email-logo.png"
@@ -30,14 +30,14 @@ function Contact() {
             <ContactCard 
               image="../src/assets/socials_logo/linkedin-logo.png"
               note="View my Linkedin account"
-              contact="@Jayland Veasey"
+              contact="/in/Jayland Veasey"
               link="https://www.linkedin.com/in/jayland-veasey-72696715b/"
             />
 
             <ContactCard 
               image="../src/assets/socials_logo/githubdesktop-logo.webp"
               note="Check out my GitHub account"
-              contact="@VEAJAY"
+              contact="/VEAJAY"
               link="https://github.com/VEAJAY"
             />
 

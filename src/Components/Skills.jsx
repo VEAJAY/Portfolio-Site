@@ -29,7 +29,7 @@ function Skills() {
     ];
 
     return (
-        <div className="min-h-screen dark:bg-gray-200">
+        <div className="min-h-screen dark:bg-gray-200" id='skills'>
 
             <Title
                 title="Skills"

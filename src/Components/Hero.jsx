@@ -29,11 +29,14 @@ function Hero() {
                         <FaGithub className="h-5 w-5" />
                     </button>
                 </a>
-
-                <button className="flex items-center justify-center py-3 px-8 border rounded-full font-bold gap-2 hover:bg-white hover:text-gray-900 duration-300 w-full sm:w-auto dark:border-gray-900 dark:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-gray-200">
-                    Contact
-                    <FiSend className="h-5 w-5" />
-                </button>
+                
+                <a href="#contact">
+                    <button className="flex items-center justify-center py-3 px-8 border rounded-full font-bold gap-2 hover:bg-white hover:text-gray-900 duration-300 w-full sm:w-auto dark:border-gray-900 dark:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-gray-200">
+                        Contact
+                        <FiSend className="h-5 w-5" />
+                    </button>
+                </a>
+                
             </div>
         </div>
     );
