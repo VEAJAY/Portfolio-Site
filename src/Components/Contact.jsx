@@ -2,6 +2,7 @@ import ContactCard from './ContactCard';
 import Title from './Title';
 
 function Contact() {
+
   return (
     <div className="h-auto dark:bg-gray-200" id='contact'>
         
@@ -14,10 +15,19 @@ function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 justify-center max-w-6xl px-4">
 
             <ContactCard 
-              image="../src/assets/socials_logo/email-logo.png"
+              image="../src/assets/socials_logo/gmail-logo.png"
               note="Send me an email"
               contact="veaseyjayland3@gmail.com"
+              link="mailto:veaseyjayland3@gmail.com"
+              isLinkActive={true}
+            />
+
+            <ContactCard 
+              image="../src/assets/socials_logo/phone-logo.png"
+              note="Send a text to my cell"
+              contact="(361) 415 - 0294"
               link=""
+              isLinkActive={false}
             />
 
             <ContactCard 
@@ -25,6 +35,7 @@ function Contact() {
               note="My Twitter / X account"
               contact="@jayland37"
               link="https://x.com/jayland37"
+              isLinkActive={true}
             />
 
             <ContactCard 
@@ -32,6 +43,7 @@ function Contact() {
               note="View my Linkedin account"
               contact="/in/Jayland Veasey"
               link="https://www.linkedin.com/in/jayland-veasey-72696715b/"
+              isLinkActive={true}
             />
 
             <ContactCard 
@@ -39,13 +51,13 @@ function Contact() {
               note="Check out my GitHub account"
               contact="/VEAJAY"
               link="https://github.com/VEAJAY"
+              isLinkActive={true}
             />
 
           </div>
         </div>
-
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

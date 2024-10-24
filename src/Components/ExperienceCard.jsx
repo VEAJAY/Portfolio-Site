@@ -2,10 +2,9 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ExperienceCard = ({ title, employer, date, paragraph, activities, image, link }) => {
-    // State to toggle showing/hiding activities
+    
     const [showMore, setShowMore] = useState(false);
 
-    // Function to toggle showMore state
     const toggleShowMore = () => {
         setShowMore(!showMore);
     };
