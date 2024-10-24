@@ -12,6 +12,7 @@ function Footer() {
             <ul className="flex font-bold flex-col md:flex-row text-lg items-center text-gray-200 dark:text-black space-y-2 md:space-y-0 md:space-x-4">
                 <a href="#about"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">About</li></a>
                 <a href="#skills"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">Skills</li></a>
+                <a href="#experience"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">Experience</li></a>
                 <a href="#projects"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">Projects</li></a>
                 <a href="#education"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">Education</li></a>
                 <a href="#contact"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">Contact</li></a>
