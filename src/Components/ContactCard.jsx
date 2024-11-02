@@ -1,13 +1,17 @@
-const ContactCard = ({ image, note, contact, link, isLinkActive }) => {
+const ContactCard = ({ image, note, contact, link, isLinkActive, onClick }) => {
+    const handleClick = () => {
+        if (!isLinkActive && onClick) {
+            onClick();
+        }
+    };
 
-    
     return (
-        <div className="flex flex-row items-center">
-            <img src={image} className="w-14 h-14"/>
+        <div className="flex flex-row items-center cursor-pointer" onClick={handleClick}>
+            <img src={image} alt={note} className="w-14 h-14" />
 
             <div className="flex flex-col m-4 text-white dark:text-gray-900">
                 {isLinkActive ? (
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                         <p className="text-gray-400 font-thin dark:text-black">
                             {note}
                         </p>
@@ -28,6 +32,6 @@ const ContactCard = ({ image, note, contact, link, isLinkActive }) => {
             </div>
         </div>
     );
-}
+};
 
 export default ContactCard;
