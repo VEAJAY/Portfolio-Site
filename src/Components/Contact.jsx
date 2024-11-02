@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ContactCard from './ContactCard';
 import Title from './Title';
 import EmailModal from './EmailModal';
@@ -66,7 +66,11 @@ function Contact() {
         </div>
       </div>
 
-      <EmailModal isOpen={isModalOpen} onClose={closeModal} email="veaseyjayland3@gmail.com" />
+      <EmailModal 
+        isOpen={isModalOpen} 
+        onClose={closeModal} 
+        email="veaseyjayland3@gmail.com" 
+      />
     </div>
   );
 }
