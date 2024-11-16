@@ -2,9 +2,9 @@ import { FiLink } from "react-icons/fi";
 
 function ProjectsCard({ title, description, link, image }) {
     return (
-        <div>
+        <div className="mx-10">
             {/* Card with Image */}
-            <div className="xl:w-[600px] xl:h-[400px] lg:w-[500px] lg:h-[350px] md:w-[400px] md:h-[300px] sm:w-[300px] sm:h-[200px] w-[300px] h-[200px] bg-slate-700 dark:bg-slate-300 rounded-3xl cursor-pointer hover:bg-slate-600 dark:hover:bg-slate-400 duration-200 flex items-center justify-center overflow-hidden">
+            <div className="xl:w-[600px] xl:h-[400px] lg:w-[500px] lg:h-[350px] md:w-[400px] md:h-[300px] sm:w-[300px] sm:h-[200px] w-[300px] h-[200px] bg-slate-700 dark:bg-slate-300 rounded-3xl cursor-pointer hover:bg-slate-600 dark:hover:bg-slate-400 duration-200 flex items-center justify-center">
                 <img 
                     src={image} 
                     alt={title} 
@@ -23,9 +23,11 @@ function ProjectsCard({ title, description, link, image }) {
             </div>
             
             {/* DESCRIPTION */}
-            <p className="text-gray-400 dark:text-black text-lg max-h-[4rem] overflow-hidden hover:overflow-auto">
-                {description}
-            </p>
+            <div className="overflow-hidden overflow-ellipsis h-[60px]">
+                <p className="text-gray-400 dark:text-black text-sm break-words line-clamp-3">
+                    {description}
+                </p>
+            </div>
 
 
         </div>
