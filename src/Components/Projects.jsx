@@ -14,9 +14,10 @@ function Projects() {
             <div className="flex justify-center items-center">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-14">
                     <ProjectsCard 
-                        title="Project Number One"
-                        description="This is a test for project one"
-                        link="#"
+                        title="Color Quandary"
+                        description="A group university game project demonstrating our first use of Unreal Engine 4"
+                        link="https://drive.google.com/file/d/1MnrnT9MCEVpMf45x6VldGaW62tjiQlJF/view?usp=drive_link"
+                        image="../src/assets/CQ.png"
                     />
                     <ProjectsCard 
                         title="Project Number Two"
