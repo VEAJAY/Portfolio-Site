@@ -63,6 +63,14 @@ function Contact() {
             isLinkActive={true}
           />
 
+          <ContactCard 
+            image="../src/assets/socials_logo/discord-logo.png"
+            note="Find me on Discord"
+            contact="/veajay5740"
+            link="https://discordapp.com/users/veajay5740"
+            isLinkActive={true}
+          />
+
         </div>
       </div>
 
