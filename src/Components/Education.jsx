@@ -15,7 +15,7 @@ function Education() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-14 justify-center max-w-6xl px-4">
   
             <EducationCard
-              logoSrc="/assets/school_logos/tiger-logo.png"
+              logoSrc="../src/assets/school_logos/tiger-logo.png"
               classification="Certificate"
               degree="Highschool Diploma"
               dates="August 2010 - May 2014"
@@ -23,7 +23,7 @@ function Education() {
             />
   
             <EducationCard
-              logoSrc="/assets/school_logos/uhv-logo.png"
+              logoSrc="../src/assets/school_logos/uhv-logo.png"
               classification="Program"
               degree="Game & Digital Simulation"
               dates="August 2014 - Februrary 2017"
@@ -31,7 +31,7 @@ function Education() {
             />
   
             <EducationCard
-              logoSrc="/assets/school_logos/wgu-logo.png"
+              logoSrc="../src/assets/school_logos/wgu-logo.png"
               classification="Degree"
               degree="B.S. Software Engineering"
               dates="April 2023 - September 2024"
@@ -39,7 +39,7 @@ function Education() {
             />
 
             <EducationCard
-              logoSrc="/assets/school_logos/awscloud-logo.png"
+              logoSrc="../src/assets/school_logos/awscloud-logo.png"
               classification="Certificate"
               degree="AWS Cloud Practitioner"
               dates="November 2023 - November 2026"
@@ -47,7 +47,7 @@ function Education() {
             />
 
             <EducationCard
-              logoSrc="/assets/school_logos/itil-logo.png"
+              logoSrc="../src/assets/school_logos/itil-logo.png"
               classification="Certificate"
               degree="ITIL Foundation Certificate"
               dates="March 2024 - March 2027"
@@ -55,7 +55,7 @@ function Education() {
             />
 
             <EducationCard
-              logoSrc="/assets/school_logos/project-logo.webp"
+              logoSrc="../src/assets/school_logos/project-logo.webp"
               classification="Certificate"
               degree="Project+"
               dates="December 2023"

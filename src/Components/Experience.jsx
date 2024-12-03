@@ -21,7 +21,7 @@ function Experience() {
                             "Assisted the Dean of Fine Arts in the selection of the monthly ABR (American Book Review)",
                             "Tutored students in Data Structures & Algorithms I, Programming C++, and Applied Algebra"
                         ]}
-                        image="/assets/school_logos/uhv-logo.png"
+                        image="../src/assets/school_logos/uhv-logo.png"
                         link="https://www.uhv.edu/"
                     />
                 </div>
