@@ -18,7 +18,7 @@ function About() {
             
             <img
                 className="rounded-3xl lg:rounded-full object-cover w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 mt-8 lg:mt-0 lg:ml-12 shadow-[10px_10px_0px_rgba(123,31,162,1)] dark:shadow-[10px_10px_0px_rgba(25,118,210,1)]"
-                src="../src/assets/pixar_headshot.jpeg"
+                src="/assets/pixar_headshot.jpeg"
             />
         </div>
     );
