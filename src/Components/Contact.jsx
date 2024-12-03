@@ -23,7 +23,7 @@ function Contact() {
           
           
           <ContactCard 
-            image="../src/assets/socials_logo/gmail-logo.png"
+            image="/assets/socials_logo/gmail-logo.png"
             note="Send me an email"
             contact="veaseyjayland3@gmail.com"
             link="" 
@@ -32,7 +32,7 @@ function Contact() {
           />
 
           <ContactCard 
-            image="../src/assets/socials_logo/phone-logo.png"
+            image="/assets/socials_logo/phone-logo.png"
             note="Send a text to my cell"
             contact="(361) 415 - 0294"
             link=""
@@ -40,7 +40,7 @@ function Contact() {
           />
 
           <ContactCard 
-            image="../src/assets/socials_logo/twitter-logo.png"
+            image="/assets/socials_logo/twitter-logo.png"
             note="My Twitter / X account"
             contact="@jayland37"
             link="https://x.com/jayland37"
@@ -48,7 +48,7 @@ function Contact() {
           />
 
           <ContactCard 
-            image="../src/assets/socials_logo/linkedin-logo.png"
+            image="/assets/socials_logo/linkedin-logo.png"
             note="View my Linkedin account"
             contact="/in/Jayland Veasey"
             link="https://www.linkedin.com/in/jayland-veasey-72696715b/"
@@ -56,7 +56,7 @@ function Contact() {
           />
 
           <ContactCard 
-            image="../src/assets/socials_logo/githubdesktop-logo.webp"
+            image="/assets/socials_logo/githubdesktop-logo.webp"
             note="Check out my GitHub account"
             contact="/VEAJAY"
             link="https://github.com/VEAJAY"
@@ -64,7 +64,7 @@ function Contact() {
           />
 
           <ContactCard 
-            image="../src/assets/socials_logo/discord-logo.png"
+            image="/assets/socials_logo/discord-logo.png"
             note="Find me on Discord"
             contact="/veajay5740"
             link="https://discordapp.com/users/veajay5740"

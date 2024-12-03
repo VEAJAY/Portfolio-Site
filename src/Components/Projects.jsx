@@ -17,7 +17,7 @@ function Projects() {
                         title="Color Quandary"
                         description="A group university game project demonstrating our first use of Unreal Engine 4 (unstable build)"
                         link="https://drive.google.com/file/d/1MnrnT9MCEVpMf45x6VldGaW62tjiQlJF/view?usp=drive_link"
-                        image="../src/assets/CQ.png"
+                        image="/assets/CQ.png"
                     />
                     <ProjectsCard 
                         title="Project Number Two"
