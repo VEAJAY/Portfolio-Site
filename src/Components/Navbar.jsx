@@ -23,9 +23,12 @@ function Navbar() {
                 {isDarkMode ? <MoonIcon className="h-6 w-6" /> : <SunIcon className="h-6 w-6" />}
             </button>
 
-            <button className="text-white dark:text-gray-900">
-                <Bars3Icon className="h-6 w-6" />
-            </button>
+            <a href="#">
+                <button className="text-white dark:text-gray-900">
+                    <Bars3Icon className="h-6 w-6" />
+                </button>
+            </a>
+            
         </div>
     );
 }
