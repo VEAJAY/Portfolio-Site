@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Bars3Icon, MoonIcon, SunIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
 function Navbar() {
-    // Initialize dark mode from system preference
+
     const [isDarkMode, setIsDarkMode] = useState(() => {
         if (typeof window !== 'undefined') {
             const savedMode = localStorage.getItem('darkMode');
@@ -12,11 +12,9 @@ function Navbar() {
         return false;
     });
 
-    // Add state for menu visibility
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
-        // Update class and save preference
         document.documentElement.classList.toggle('dark', isDarkMode);
         localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
     }, [isDarkMode]);
@@ -71,7 +69,7 @@ function Navbar() {
                 </button>
             </nav>
 
-            {/* Fullscreen Navigation Menu */}
+            {/* FULLSCREEN MENU */}
             <div className={`fixed inset-0 bg-gray-800 dark:bg-slate-300 z-40 transform transition-transform duration-300 ${
                 isMenuOpen ? 'translate-x-0' : 'translate-x-full'
             }`}>
