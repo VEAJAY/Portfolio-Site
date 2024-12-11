@@ -72,7 +72,7 @@ function Navbar() {
             </nav>
 
             {/* Fullscreen Navigation Menu */}
-            <div className={`fixed inset-0 bg-gray-900 dark:bg-slate-300 z-40 transform transition-transform duration-300 ${
+            <div className={`fixed inset-0 bg-gray-800 dark:bg-slate-300 z-40 transform transition-transform duration-300 ${
                 isMenuOpen ? 'translate-x-0' : 'translate-x-full'
             }`}>
                 <div className="h-full flex items-center">
