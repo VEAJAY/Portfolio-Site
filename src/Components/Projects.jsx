@@ -20,9 +20,10 @@ function Projects() {
                         image="/assets/CQ.png"
                     />
                     <ProjectsCard 
-                        title="Project Number Two"
-                        description="This is a test for project two"
-                        link="#"
+                        title="Yama Chat"
+                        description="Simple AI chatbot using the Llama3 LLM"
+                        link="https://github.com/VEAJAY/Yama-Chat"
+                        image="/assets/yama-chat.png"
                     />
                     <ProjectsCard 
                         title="Project Number Three"
