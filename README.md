@@ -16,4 +16,4 @@
 
 ---
 
-> NOTE: Components are located in the src -> Components directory, while all image assets are located in the public -> assets! 
+> NOTE: Components are located in the src -> Components directory, while all image assets are located in the public -> assets! The web application is hosted using Netlify!
