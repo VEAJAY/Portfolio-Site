@@ -26,10 +26,10 @@ function Experience() {
                     />
 
                     <ExperienceCard 
-                        title="Individual Contibutor - QA"
+                        title="Individual Contributor - QA"
                         employer="Lowe's Tech"
                         date="April 2023 - September 2024"
-                        paragraph="I took the opportunity to work with some of Lowe's talented engineers to test some of the company's new, redefining software as we transitioned away from 2o year old tools that better serve customers and their home improvement needs."
+                        paragraph="I took the opportunity to work with some of Lowe's talented engineers to test some of the company's new, redefining software as we transitioned away from 20 year old tools that better serve customers and their home improvement needs."
                         activities={[
                             "Provided timely feedback to developers on identified issues, facilitating the rapid resolution of bugs and ensuring adherence to launch deadlines",
                             "Developed and enhanced web-based applications using modern frameworks like Angular and React JS, contributing to improved functionality and user experience.",
