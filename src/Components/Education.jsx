@@ -29,13 +29,13 @@ function Education() {
               dates="August 2014 - Februrary 2017"
               school="University of Houston - Victoria"
             />
-  
+
             <EducationCard
-              logoSrc="/assets/school_logos/wgu-logo.png"
-              classification="Degree"
-              degree="B.S. Software Engineering"
-              dates="April 2023 - September 2024"
-              school="Western Governors University"
+              logoSrc="/assets/school_logos/project-logo.webp"
+              classification="Certificate"
+              degree="Project+"
+              dates="December 2023"
+              school="CompTIA"
             />
 
             <EducationCard
@@ -53,15 +53,15 @@ function Education() {
               dates="March 2024 - March 2027"
               school="PeopleCert"
             />
-
-            <EducationCard
-              logoSrc="/assets/school_logos/project-logo.webp"
-              classification="Certificate"
-              degree="Project+"
-              dates="December 2023"
-              school="CompTIA"
-            />
   
+            <EducationCard
+              logoSrc="/assets/school_logos/wgu-logo.png"
+              classification="Degree"
+              degree="B.S. Software Engineering"
+              dates="April 2023 - September 2024"
+              school="Western Governors University"
+            />
+
           </div>
         </div>
       </div>
