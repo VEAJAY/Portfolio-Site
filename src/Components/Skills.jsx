@@ -27,20 +27,22 @@ function Skills() {
     { name: "Chrome Dev Tools", image: "/assets/tech_logos/chrome-logo.png" },
     { name: "Blender", image: "/assets/tech_logos/blender-logo.png" },
     { name: "Expo", image: "/assets/tech_logos/expo-logo.png" },
+    { name: "IntelliJ", image: "/assets/tech_logos/intellij-logo.png" },
+    { name: "Github Copilot", image: "/assets/tech_logos/copilot-logo.png" },
   ];
 
   return (
-    <div className="min-h-screen dark:bg-gray-200" id="skills">
-      <Title title="Skills" description="Cool technologies and languages" />
+    <div className='min-h-screen dark:bg-gray-200' id='skills'>
+      <Title title='Skills' description='Cool technologies and languages' />
 
       {/* SKILLS GRID */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-5 sm:px-10 md:px-20 lg:px-56 py-10">
+      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 px-5 sm:px-10 md:px-20 lg:px-56 py-10'>
         {skills.map((skill, index) => (
           <SkillCard
             key={index}
             skill={skill.name}
             imageSrc={skill.image}
-            bgColor="bg-slate-700"
+            bgColor='bg-slate-700'
           />
         ))}
       </div>
