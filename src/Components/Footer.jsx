@@ -7,7 +7,7 @@ function Footer() {
                 </h1>
             </a>
             <p className="text-gray-400 text-sm hidden md:block">
-                Copyright © 2024. All rights reserved.
+                Copyright © 2025. All rights reserved.
             </p>
             <ul className="flex font-bold flex-col md:flex-row text-lg items-center text-gray-200 dark:text-black space-y-2 md:space-y-0 md:space-x-4">
                 <a href="#about"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">About</li></a>
