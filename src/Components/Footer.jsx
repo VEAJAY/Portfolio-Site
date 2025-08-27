@@ -1,4 +1,6 @@
 function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
         <div className="h-auto md:h-28 flex flex-col md:flex-row bg-gray-950 dark:bg-slate-300 justify-between items-center p-8 mt-10">
             <a href="#">
@@ -7,7 +9,7 @@ function Footer() {
                 </h1>
             </a>
             <p className="text-gray-400 text-sm hidden md:block">
-                Copyright © 2025. All rights reserved.
+                Copyright © {currentYear}. All rights reserved.
             </p>
             <ul className="flex font-bold flex-col md:flex-row text-lg items-center text-gray-200 dark:text-black space-y-2 md:space-y-0 md:space-x-4">
                 <a href="#about"><li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">About</li></a>
