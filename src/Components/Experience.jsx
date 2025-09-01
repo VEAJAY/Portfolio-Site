@@ -49,7 +49,7 @@ function Experience() {
               "Extended my skillset by designing merchable products and logos to create brand identity",
             ]}
             image="/assets/school_logos/heroes-logo.png"
-            link="https://heoressoberliving.com"
+            link="https://heroessoberliving.com"
           />
         </div>
       </div>
