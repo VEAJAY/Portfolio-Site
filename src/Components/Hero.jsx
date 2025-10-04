@@ -52,7 +52,7 @@ function Hero() {
       </div>
 
       {/* CONTACT LINKS */}
-      <div className="mt-44 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-center">
+      <div className="mt-40  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-center">
         <a
           href="https://www.linkedin.com/in/jayland-veasey-72696715b/"
           className="flex items-center justify-center w-16 h-16 rounded-full text-purple-700 border-2 border-purple-700 dark:text-blue-700 dark:border-blue-500"
