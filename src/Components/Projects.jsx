@@ -3,11 +3,16 @@ import Title from "./Title";
 
 function Projects() {
   return (
-    <div className="min-h-screen dark:bg-gray-200" id="projects">
-      <Title title="Projects" description="Check out some of my work" />
+    <div
+      className="min-h-screen bg-slate-800 dark:bg-slate-300 sm:pt-20"
+      id="projects"
+    >
+      <div className="flex justify-center text-center">
+        <Title title="Projects" description="Check out some of my work" />
+      </div>
 
       {/* PROJECT TILES */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-14">
           <ProjectsCard
             title="Color Quandary"

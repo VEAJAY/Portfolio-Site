@@ -3,7 +3,7 @@ import Title from "./Title";
 
 function Experience() {
   return (
-    <div className="h-auto" id="experience">
+    <div className="h-auto bg-slate-800 dark:bg-slate-300" id="experience">
       <Title title="Experience" description="Here are some things I've done" />
 
       <div className="flex justify-center items-center">

@@ -1,7 +1,7 @@
 function About() {
   return (
     <div
-      className="min-h-[80vh] mt-20 flex flex-col justify-center space-y-36 items-center p-10 sm:p-12 dark:bg-gray-200 bg-[rgba(56,0,84,0.43)] dark:bg-[rgba(206,206,206,0.43)]"
+      className="min-h-[80vh] mt-20 flex flex-col justify-center space-y-36 items-center p-10 sm:p-12 bg-slate-800 dark:bg-slate-300"
       id="about"
     >
       {/* TITLE */}
