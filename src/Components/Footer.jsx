@@ -23,11 +23,11 @@ function Footer() {
             Skills
           </li>
         </a>
-        <a href="#experience">
+        {/* <a href="#experience">
           <li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">
             Experience
           </li>
-        </a>
+        </a> */}
         <a href="#projects">
           <li className="hover:text-purple-600 dark:hover:text-blue-700 duration-200">
             Projects

@@ -27,15 +27,16 @@ function Projects() {
             image="/assets/yama-chat.png"
           />
           <ProjectsCard
-            title="Heroes & Sober Living Website"
-            description="A website developed by myself using React.js and Next.js."
+            title="Heroes & Sober Living"
+            description="A website developed using React.js and Next.js."
             link="https://github.com/VEAJAY/Heroes-Sober-Living"
             image="/assets/soberliving-hero.png"
           />
           <ProjectsCard
-            title="Project Number Four"
-            description="This is a test for project four"
-            link="#"
+            title="Be Home Project"
+            description="A website developed in Next.js for veternas living needs"
+            link="https://behomeproject.com/"
+            image="/assets/behomeproject.png"
           />
         </div>
       </div>

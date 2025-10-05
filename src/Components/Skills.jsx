@@ -33,7 +33,7 @@ function Skills() {
 
   return (
     <div
-      className="sm:mt-36 min-h-screen dark:bg-gray-200 text-center"
+      className="sm:mt-24 sm:mb-60  dark:bg-gray-200 text-center"
       id="skills"
     >
       <Title title="Skills" description="Cool technologies and languages" />
