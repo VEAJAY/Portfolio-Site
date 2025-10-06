@@ -51,8 +51,8 @@ function Navbar() {
       <nav
         className={`flex justify-between p-4 sticky top-0 ${
           isMenuOpen
-            ? "bg-gray-800 dark:bg-slate-300"
-            : "bg-gray-900/95 dark:bg-gray-200/95"
+            ? "bg-gray-950 dark:bg-slate-300"
+            : "bg-gray-950/95 dark:bg-gray-200/95"
         } lg:bg-transparent dark:lg:bg-transparent backdrop-blur-sm z-50`}
       >
         <button
@@ -93,7 +93,7 @@ function Navbar() {
 
       {/* FULLSCREEN MENU */}
       <div
-        className={`fixed inset-0 bg-gray-800 dark:bg-slate-300 z-40 transform transition-transform duration-300 ${
+        className={`fixed inset-0 bg-gray-950 dark:bg-slate-300 z-40 transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

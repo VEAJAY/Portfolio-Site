@@ -28,8 +28,8 @@ function Projects() {
           />
           <ProjectsCard
             title="Heroes & Sober Living"
-            description="A website developed using React.js and Next.js."
-            link="https://github.com/VEAJAY/Heroes-Sober-Living"
+            description="A static website developed using Next.js"
+            link="https://heroessoberliving.com"
             image="/assets/soberliving-hero.png"
           />
           <ProjectsCard
